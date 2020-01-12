@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div>
+    <h1 class="title"> Our Volunteers </h1>
+
+</div>
+
+
+    <form id="volunteerForm">
+        <h1 class="title">New volunteer </h1>
+
+        <div class="field">
+            <label for="volunteer">Volunteer</label>
+
+            <input type="text" name="volunteer" id="volunteer"
+            minlength="3" required>
+
+        </div>
+        <div class="field">
+            <label for="description">Description</label>
+
+            <input type="text" name="description" id="description"
+            minlength="20"  required>
+
+        </div>
+        
+        <div class="field">
+            <label for="population">Population</label>
+
+            <select name="population" id="population">
+                <option value="Children">Children</option>
+                <option value="Youth">Youth</option>
+                <option value="Animals">Animals</option>
+                <option value="Adults">Adults</option>
+            </select>
+
+        </div>
+        <div class="field">
+            <label for="dayInTheWeek">Which Day </label>
+
+            <select name="dayInTheWeek" id="dayInTheWeek">
+                <option value="Sunday">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+            </select>
+
+        </div>
+        <div class="field">
+            <label for="time">Time</label>
+
+            <input type="time" name="time" id="time" required>
+
+        </div>
+        <div class="field">
+            <label >Adress</label>
+
+            <input type="number" name="nHome" id="nHome" placeholder="N. House" required>
+
+            <input type="text" name="street" id="street" placeholder="Street" required>
+            <input type="text" name="city" id="city" placeholder="City">
+
+
+        </div>
+        
+        <div class="field">
+            <label for="contact">Contact</label>
+
+            <input type="email" name="contact" id="contact" required>
+
+        </div>
+        
+        <input type="submit">
+       
+    </form>
+   
+    <div>
+        <h1></h1>
+</div>
+    <table id="myTable">
+
+        <tr>
+            <th>Volunteer</th>
+            <th>Description</th>
+            <th>Population</th>
+            <th>Which Day </th>
+            <th>Time</th>
+            <th>Adress</th>
+            <th>Contact</th>
+        </tr>
+<tr></tr>    </table>
+    <script src="./validation/form.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

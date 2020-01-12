@@ -1,0 +1,87 @@
+
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: rgb(134, 189, 189);
+  }
+  20% {
+    background-color: rgb(92, 172, 165);
+  }
+  40% {
+    background-color: rgb(64, 146, 133);
+  }
+  60% {
+    background-color: rgb(65, 121, 121);
+  }
+  80% {
+    background-color: rgb(9, 65, 62);
+  }
+  100% {
+    background-color: teal;
+  }
+}
+.title {
+    color: rgb(196, 117, 13);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15%;
+    text-align: left;
+
+
+  }
+  div{
+      text-align:
+       center;
+       
+  }
+  .field{
+    text-align: left;
+    font-family: cursive;
+  }
+  th {
+    text-align: center;
+    border: 3px solid rgb(14, 13, 13);
+    font-family: Georgia, 'Times New Roman', Times, serif,bold;
+    border-radius: 20px;
+
+  }
+  td {
+    text-align: left;
+  }
+
+  table{
+      width: 70%;
+      align-items: flex-start;
+      border: 1px solid rgb(14, 13, 13);
+      border-radius: 5px;
+margin: auto;
+  }
+  form {
+    background-color: rgb(243, 196, 229);
+    background-clip: border-box;
+    color: white;
+    font-family: cursive;
+    width: 40%;
+    margin:left;
+    margin-left: 15%;
+    padding: 30px;
+    border-radius: 45px;
+    text-align: left;
+    border: 1px solid rgb(14, 13, 13);;
+    border-color: rgb(7, 7, 7);
+    background-image: url(https://www.itu.cet.ac.il/uploads/2018/02/shutterstock_514300945-e1518358648322-720x400.jpg);
+  }
+  select{
+    font-family: cursive;
+
+  }
+  .field input{
+    font-family: cursive;
+    text-align: left;
+    
+  }
+  .field label{
+    font-family: cursive;
+  }
