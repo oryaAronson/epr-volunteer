@@ -17,7 +17,7 @@ body {
     background-color: rgb(65, 121, 121);
   }
   80% {
-    background-color: rgb(9, 65, 62);
+    background-color: rgb(27, 97, 93);
   }
   100% {
     background-color: teal;
@@ -42,21 +42,21 @@ body {
   }
   th {
     text-align: center;
-    border: 3px solid rgb(14, 13, 13);
     font-family: Georgia, 'Times New Roman', Times, serif,bold;
     border-radius: 20px;
 
   }
   td {
     text-align: left;
+    border: 1px solid rgb(14, 13, 13);
+
   }
 
   table{
       width: 70%;
       align-items: flex-start;
-      border: 1px solid rgb(14, 13, 13);
       border-radius: 5px;
-margin: auto;
+      margin: auto;
   }
   form {
     background-color: rgb(243, 196, 229);
